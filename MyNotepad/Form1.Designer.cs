@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             menuStrip1 = new MenuStrip();
             fileToolStripMenuItem = new ToolStripMenuItem();
             newToolStripMenuItem = new ToolStripMenuItem();
@@ -70,17 +71,26 @@
             statusBảToolStripMenuItem = new ToolStripMenuItem();
             wordWrapToolStripMenuItem = new ToolStripMenuItem();
             textBox1 = new TextBox();
-            contextMenuStrip1 = new ContextMenuStrip(components);
+            bindingSource1 = new BindingSource(components);
+            flowLayoutPanel1 = new FlowLayoutPanel();
             undoToolStripMenuItem1 = new ToolStripMenuItem();
             cutToolStripMenuItem1 = new ToolStripMenuItem();
             copyToolStripMenuItem1 = new ToolStripMenuItem();
             pasteToolStripMenuItem1 = new ToolStripMenuItem();
             deleteToolStripMenuItem = new ToolStripMenuItem();
-            bindingSource1 = new BindingSource(components);
-            flowLayoutPanel1 = new FlowLayoutPanel();
+            contextMenuStrip1 = new ContextMenuStrip(components);
+            toolStripSeparator5 = new ToolStripSeparator();
+            selectAllToolStripMenuItem1 = new ToolStripMenuItem();
+            toolStripSeparator8 = new ToolStripSeparator();
+            rightToolStripMenuItem = new ToolStripMenuItem();
+            toolStripSeparator9 = new ToolStripSeparator();
+            reconversionToolStripMenuItem = new ToolStripMenuItem();
+            toolStripSeparator10 = new ToolStripSeparator();
+            showUnicodeToolStripMenuItem = new ToolStripMenuItem();
+            insertUnicodeToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
-            contextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
+            contextMenuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
@@ -369,43 +379,6 @@
             textBox1.Size = new Size(800, 388);
             textBox1.TabIndex = 1;
             // 
-            // contextMenuStrip1
-            // 
-            contextMenuStrip1.ImageScalingSize = new Size(20, 20);
-            contextMenuStrip1.Items.AddRange(new ToolStripItem[] { undoToolStripMenuItem1, cutToolStripMenuItem1, copyToolStripMenuItem1, pasteToolStripMenuItem1, deleteToolStripMenuItem });
-            contextMenuStrip1.Name = "contextMenuStrip1";
-            contextMenuStrip1.Size = new Size(123, 124);
-            // 
-            // undoToolStripMenuItem1
-            // 
-            undoToolStripMenuItem1.Name = "undoToolStripMenuItem1";
-            undoToolStripMenuItem1.Size = new Size(122, 24);
-            undoToolStripMenuItem1.Text = "Undo";
-            // 
-            // cutToolStripMenuItem1
-            // 
-            cutToolStripMenuItem1.Name = "cutToolStripMenuItem1";
-            cutToolStripMenuItem1.Size = new Size(122, 24);
-            cutToolStripMenuItem1.Text = "Cut";
-            // 
-            // copyToolStripMenuItem1
-            // 
-            copyToolStripMenuItem1.Name = "copyToolStripMenuItem1";
-            copyToolStripMenuItem1.Size = new Size(122, 24);
-            copyToolStripMenuItem1.Text = "Copy";
-            // 
-            // pasteToolStripMenuItem1
-            // 
-            pasteToolStripMenuItem1.Name = "pasteToolStripMenuItem1";
-            pasteToolStripMenuItem1.Size = new Size(122, 24);
-            pasteToolStripMenuItem1.Text = "Paste";
-            // 
-            // deleteToolStripMenuItem
-            // 
-            deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            deleteToolStripMenuItem.Size = new Size(122, 24);
-            deleteToolStripMenuItem.Text = "Delete";
-            // 
             // flowLayoutPanel1
             // 
             flowLayoutPanel1.Dock = DockStyle.Bottom;
@@ -413,6 +386,102 @@
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             flowLayoutPanel1.Size = new Size(800, 33);
             flowLayoutPanel1.TabIndex = 2;
+            // 
+            // undoToolStripMenuItem1
+            // 
+            undoToolStripMenuItem1.Image = (Image)resources.GetObject("undoToolStripMenuItem1.Image");
+            undoToolStripMenuItem1.Name = "undoToolStripMenuItem1";
+            undoToolStripMenuItem1.Size = new Size(297, 26);
+            undoToolStripMenuItem1.Text = "Undo";
+            // 
+            // cutToolStripMenuItem1
+            // 
+            cutToolStripMenuItem1.Image = (Image)resources.GetObject("cutToolStripMenuItem1.Image");
+            cutToolStripMenuItem1.Name = "cutToolStripMenuItem1";
+            cutToolStripMenuItem1.Size = new Size(297, 26);
+            cutToolStripMenuItem1.Text = "Cut";
+            // 
+            // copyToolStripMenuItem1
+            // 
+            copyToolStripMenuItem1.Image = (Image)resources.GetObject("copyToolStripMenuItem1.Image");
+            copyToolStripMenuItem1.Name = "copyToolStripMenuItem1";
+            copyToolStripMenuItem1.Size = new Size(297, 26);
+            copyToolStripMenuItem1.Text = "Copy";
+            // 
+            // pasteToolStripMenuItem1
+            // 
+            pasteToolStripMenuItem1.Image = (Image)resources.GetObject("pasteToolStripMenuItem1.Image");
+            pasteToolStripMenuItem1.Name = "pasteToolStripMenuItem1";
+            pasteToolStripMenuItem1.Size = new Size(297, 26);
+            pasteToolStripMenuItem1.Text = "Paste";
+            // 
+            // deleteToolStripMenuItem
+            // 
+            deleteToolStripMenuItem.Image = (Image)resources.GetObject("deleteToolStripMenuItem.Image");
+            deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
+            deleteToolStripMenuItem.Size = new Size(297, 26);
+            deleteToolStripMenuItem.Text = "Delete";
+            // 
+            // contextMenuStrip1
+            // 
+            contextMenuStrip1.ImageScalingSize = new Size(20, 20);
+            contextMenuStrip1.Items.AddRange(new ToolStripItem[] { undoToolStripMenuItem1, toolStripSeparator5, cutToolStripMenuItem1, copyToolStripMenuItem1, pasteToolStripMenuItem1, deleteToolStripMenuItem, toolStripSeparator8, selectAllToolStripMenuItem1, toolStripSeparator9, rightToolStripMenuItem, showUnicodeToolStripMenuItem, insertUnicodeToolStripMenuItem, toolStripSeparator10, reconversionToolStripMenuItem });
+            contextMenuStrip1.Name = "contextMenuStrip1";
+            contextMenuStrip1.Size = new Size(298, 288);
+            contextMenuStrip1.Opening += contextMenuStrip1_Opening;
+            // 
+            // toolStripSeparator5
+            // 
+            toolStripSeparator5.Name = "toolStripSeparator5";
+            toolStripSeparator5.Size = new Size(290, 6);
+            // 
+            // selectAllToolStripMenuItem1
+            // 
+            selectAllToolStripMenuItem1.Image = (Image)resources.GetObject("selectAllToolStripMenuItem1.Image");
+            selectAllToolStripMenuItem1.Name = "selectAllToolStripMenuItem1";
+            selectAllToolStripMenuItem1.Size = new Size(297, 26);
+            selectAllToolStripMenuItem1.Text = "Select all";
+            // 
+            // toolStripSeparator8
+            // 
+            toolStripSeparator8.Name = "toolStripSeparator8";
+            toolStripSeparator8.Size = new Size(290, 6);
+            // 
+            // rightToolStripMenuItem
+            // 
+            rightToolStripMenuItem.Name = "rightToolStripMenuItem";
+            rightToolStripMenuItem.Size = new Size(293, 24);
+            rightToolStripMenuItem.Text = "Right-to-left reading order";
+            rightToolStripMenuItem.Click += rightToolStripMenuItem_Click;
+            // 
+            // toolStripSeparator9
+            // 
+            toolStripSeparator9.Name = "toolStripSeparator9";
+            toolStripSeparator9.Size = new Size(290, 6);
+            // 
+            // reconversionToolStripMenuItem
+            // 
+            reconversionToolStripMenuItem.Image = (Image)resources.GetObject("reconversionToolStripMenuItem.Image");
+            reconversionToolStripMenuItem.Name = "reconversionToolStripMenuItem";
+            reconversionToolStripMenuItem.Size = new Size(297, 26);
+            reconversionToolStripMenuItem.Text = "Reconversion";
+            // 
+            // toolStripSeparator10
+            // 
+            toolStripSeparator10.Name = "toolStripSeparator10";
+            toolStripSeparator10.Size = new Size(290, 6);
+            // 
+            // showUnicodeToolStripMenuItem
+            // 
+            showUnicodeToolStripMenuItem.Name = "showUnicodeToolStripMenuItem";
+            showUnicodeToolStripMenuItem.Size = new Size(293, 24);
+            showUnicodeToolStripMenuItem.Text = "Show unicode control characters";
+            // 
+            // insertUnicodeToolStripMenuItem
+            // 
+            insertUnicodeToolStripMenuItem.Name = "insertUnicodeToolStripMenuItem";
+            insertUnicodeToolStripMenuItem.Size = new Size(293, 24);
+            insertUnicodeToolStripMenuItem.Text = "Insert unicode control characters";
             // 
             // Form1
             // 
@@ -427,8 +496,8 @@
             Text = "Form1";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
-            contextMenuStrip1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
+            contextMenuStrip1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -455,12 +524,6 @@
         private ToolStripSeparator toolStripSeparator4;
         private ToolStripMenuItem selectAllToolStripMenuItem;
         private TextBox textBox1;
-        private ContextMenuStrip contextMenuStrip1;
-        private ToolStripMenuItem undoToolStripMenuItem1;
-        private ToolStripMenuItem cutToolStripMenuItem1;
-        private ToolStripMenuItem copyToolStripMenuItem1;
-        private ToolStripMenuItem pasteToolStripMenuItem1;
-        private ToolStripMenuItem deleteToolStripMenuItem;
         private ToolStripMenuItem saveAsToolStripMenuItem;
         private ToolStripMenuItem pageSetupToolStripMenuItem;
         private ToolStripMenuItem ClosetabToolStripMenuItem;
@@ -484,5 +547,20 @@
         private ToolStripMenuItem restoreDefaultZoomToolStripMenuItem;
         private BindingSource bindingSource1;
         private FlowLayoutPanel flowLayoutPanel1;
+        private ContextMenuStrip contextMenuStrip1;
+        private ToolStripMenuItem undoToolStripMenuItem1;
+        private ToolStripSeparator toolStripSeparator5;
+        private ToolStripMenuItem cutToolStripMenuItem1;
+        private ToolStripMenuItem copyToolStripMenuItem1;
+        private ToolStripMenuItem pasteToolStripMenuItem1;
+        private ToolStripMenuItem deleteToolStripMenuItem;
+        private ToolStripSeparator toolStripSeparator8;
+        private ToolStripMenuItem selectAllToolStripMenuItem1;
+        private ToolStripMenuItem rightToolStripMenuItem;
+        private ToolStripSeparator toolStripSeparator9;
+        private ToolStripMenuItem showUnicodeToolStripMenuItem;
+        private ToolStripMenuItem insertUnicodeToolStripMenuItem;
+        private ToolStripSeparator toolStripSeparator10;
+        private ToolStripMenuItem reconversionToolStripMenuItem;
     }
 }

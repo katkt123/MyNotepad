@@ -31,5 +31,15 @@
         {
 
         }
+
+        private void contextMenuStrip1_Opening(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+
+        }
+
+        private void rightToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
