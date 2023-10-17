@@ -1,0 +1,17 @@
+C:\SGU\Nam3 HK1\C#\BT_Winform\MyNotepad\MyNotepad\bin\Debug\net6.0-windows\MyNotepad.exe
+C:\SGU\Nam3 HK1\C#\BT_Winform\MyNotepad\MyNotepad\bin\Debug\net6.0-windows\MyNotepad.deps.json
+C:\SGU\Nam3 HK1\C#\BT_Winform\MyNotepad\MyNotepad\bin\Debug\net6.0-windows\MyNotepad.runtimeconfig.json
+C:\SGU\Nam3 HK1\C#\BT_Winform\MyNotepad\MyNotepad\bin\Debug\net6.0-windows\MyNotepad.dll
+C:\SGU\Nam3 HK1\C#\BT_Winform\MyNotepad\MyNotepad\bin\Debug\net6.0-windows\MyNotepad.pdb
+C:\SGU\Nam3 HK1\C#\BT_Winform\MyNotepad\MyNotepad\obj\Debug\net6.0-windows\MyNotepad.Form1.resources
+C:\SGU\Nam3 HK1\C#\BT_Winform\MyNotepad\MyNotepad\obj\Debug\net6.0-windows\MyNotepad.csproj.GenerateResource.cache
+C:\SGU\Nam3 HK1\C#\BT_Winform\MyNotepad\MyNotepad\obj\Debug\net6.0-windows\MyNotepad.GeneratedMSBuildEditorConfig.editorconfig
+C:\SGU\Nam3 HK1\C#\BT_Winform\MyNotepad\MyNotepad\obj\Debug\net6.0-windows\MyNotepad.AssemblyInfoInputs.cache
+C:\SGU\Nam3 HK1\C#\BT_Winform\MyNotepad\MyNotepad\obj\Debug\net6.0-windows\MyNotepad.AssemblyInfo.cs
+C:\SGU\Nam3 HK1\C#\BT_Winform\MyNotepad\MyNotepad\obj\Debug\net6.0-windows\MyNotepad.csproj.CoreCompileInputs.cache
+C:\SGU\Nam3 HK1\C#\BT_Winform\MyNotepad\MyNotepad\obj\Debug\net6.0-windows\MyNotepad.dll
+C:\SGU\Nam3 HK1\C#\BT_Winform\MyNotepad\MyNotepad\obj\Debug\net6.0-windows\refint\MyNotepad.dll
+C:\SGU\Nam3 HK1\C#\BT_Winform\MyNotepad\MyNotepad\obj\Debug\net6.0-windows\MyNotepad.pdb
+C:\SGU\Nam3 HK1\C#\BT_Winform\MyNotepad\MyNotepad\obj\Debug\net6.0-windows\MyNotepad.genruntimeconfig.cache
+C:\SGU\Nam3 HK1\C#\BT_Winform\MyNotepad\MyNotepad\obj\Debug\net6.0-windows\ref\MyNotepad.dll
+C:\SGU\Nam3 HK1\C#\BT_Winform\MyNotepad\MyNotepad\obj\Debug\net6.0-windows\MyNotepad.Properties.Resources.resources
