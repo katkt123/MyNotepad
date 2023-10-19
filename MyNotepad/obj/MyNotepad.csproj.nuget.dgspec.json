@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SGU\\Nam3 HK1\\C#\\BT_Winform\\MyNotepad\\MyNotepad\\MyNotepad.csproj": {}
+    "C:\\SGU\\Nam3 HK1\\C#\\BT_Winform\\MyNotepad\\MyNotepad\\MyNotepad\\MyNotepad.csproj": {}
   },
   "projects": {
-    "C:\\SGU\\Nam3 HK1\\C#\\BT_Winform\\MyNotepad\\MyNotepad\\MyNotepad.csproj": {
+    "C:\\SGU\\Nam3 HK1\\C#\\BT_Winform\\MyNotepad\\MyNotepad\\MyNotepad\\MyNotepad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SGU\\Nam3 HK1\\C#\\BT_Winform\\MyNotepad\\MyNotepad\\MyNotepad.csproj",
+        "projectUniqueName": "C:\\SGU\\Nam3 HK1\\C#\\BT_Winform\\MyNotepad\\MyNotepad\\MyNotepad\\MyNotepad.csproj",
         "projectName": "MyNotepad",
-        "projectPath": "C:\\SGU\\Nam3 HK1\\C#\\BT_Winform\\MyNotepad\\MyNotepad\\MyNotepad.csproj",
+        "projectPath": "C:\\SGU\\Nam3 HK1\\C#\\BT_Winform\\MyNotepad\\MyNotepad\\MyNotepad\\MyNotepad.csproj",
         "packagesPath": "C:\\Users\\HAO KIET\\.nuget\\packages\\",
-        "outputPath": "C:\\SGU\\Nam3 HK1\\C#\\BT_Winform\\MyNotepad\\MyNotepad\\obj\\",
+        "outputPath": "C:\\SGU\\Nam3 HK1\\C#\\BT_Winform\\MyNotepad\\MyNotepad\\MyNotepad\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
